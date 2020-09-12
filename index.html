@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+
+
+<title>Arte en Lana por Angela Ballivian</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<meta name="description" content="Arte en Lana, Tejidos">
+<meta name="keywords" content="Arte en Lana, tejidos de lana, mu&ntildeecas de lana, abrigos de lana, gorros en lana">
+<meta name="author" content="Jose Silva responsive web designer">
+<script src='https://kit.fontawesome.com/a076d05399.js'></script>
+<style>
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial;
+  padding: 10px;
+  background: rgba(200, 130, 130, 1);
+}
+
+/* Header/Blog Title */
+.header {
+  padding: 0px;
+  text-align: center;
+  background: rgba(250, 150, 140, 1);
+    width: 100%;
+    float: right;
+   
+   
+}
+
+.header h1 {
+  font-size: 50px;
+    text-shadow: 10px 10px 5px rgba(0,0,0,1);
+    color: palegoldenrod;
+        
+}
+.img-header {
+     width: 30%;
+    float: left;
+    border-radius: 50%;
+    box-shadow: 10px 10px 5px rgba(0,0,0,1);
+    
+    }
+
+/* Style the top navigation bar */
+.topnav {
+  overflow: hidden;
+  background-color: #333;
+}
+
+/* Style the topnav links */
+.topnav a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* Change color on hover */
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+/* Create two unequal columns that floats next to each other */
+/* Left column */
+.leftcolumn {   
+  float: left;
+  width: 75%;
+}
+
+/* Right column */
+.rightcolumn {
+  float: left;
+  width: 25%;
+  background-color: rgba(250, 100, 100, 0.8);
+  padding-left: 20px;
+}
+
+/* Fake image */
+.fakeimg {
+  background-color: tomato;
+  width: 100%;
+  padding: 20px;
+}
+
+/* Add a card effect for articles */
+.card {
+  background-color: white;
+  padding: 20px;
+  margin-top: 20px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Footer */
+.footer {
+  padding: 20px;
+  text-align: center;
+  background: #ddd;
+  margin-top: 20px;
+}
+
+/* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 800px) {
+  .leftcolumn, .rightcolumn {   
+    width: 100%;
+    padding: 0;
+  }
+}
+
+/* Responsive layout - when the screen is less than 400px wide, make the navigation links stack on top of each other instead of next to each other */
+@media screen and (max-width: 400px) {
+  .topnav a {
+    float: none;
+    width: 100%;
+  }
+}
+</style>
+</head>
+<body>
+
+<header class="header">
+    <img class="img-header" src="angelaGorroLana.jpg" alt="Gorro de Lana" />
+  <h1>Arte en Lana</h1>
+  <h2>Te muestro mis trabajos en lana</h2>
+    
+</header>
+
+<div class="topnav">
+  <a href="#">Link</a>
+  <a href="#">Link</a>
+  <a href="#">Link</a>
+  <a href="#" style="float:right">Link</a>
+</div>
+
+<main class="row">
+  <section class="leftcolumn">
+    <article class="card">
+      <h2>Copacabana</h2>
+      <h5>Viaje al lago</h5>
+      <img class="fakeimg" src="angela1Copacabana.jpg" alt="En el lago" style="widows: inherit;">En el hotel
+      
+      <p>Ese fue un viaje muy bonito</p>
+    </article>
+    <article class="card">
+      <h2>Copacabana</h2>
+      <h5>Viaje al lago</h5>
+      <img class="fakeimg" src="angelaCopacabana.jpg" alt="En el Lago" style="widows: inherit;">Image
+      
+      <p>El lago siempre me atrae</p>
+    </article>
+  </section>
+  <section class="rightcolumn">
+    <article class="card">
+      <h2>Manifestando</h2>
+      <img class="fakeimg" src="angelaManifestacion.jpg" alt="Manifestando">
+      <p>Manifestando contra la dictadura masista</p>
+    </article>
+    <article class="card">
+      <h3>Mis mascotas</h3>
+      <img class="fakeimg" src="angelaPerlitaYJessie.jpg" alt="Perlita y Jessie"><p>Perlita y Jessie</p>
+    </article>
+    <article class="card">
+      <h3>Poncho</h3>
+        <img class="fakeimg" src="angelaPonchoDeLana.jpg" alt="Poncho de lana">
+      <p>Con mi poncho de lana</p>
+    </article>
+  </section>
+</main>
+
+<div class="footer">
+  <h2>Powered by jlsilvag</h2>
+</div>
+
+</body>
+</html>
